@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-bg{
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+section.hero{
+    @apply grid;
+    grid-template-columns: .45fr .55fr;
+}

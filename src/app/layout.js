@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={quicksand.className}>
-        <main className="max-w-5xl mx-auto border p-5">
+        <main className="max-w-7xl mx-auto border p-5">
           {children}
         </main>
       </body>
